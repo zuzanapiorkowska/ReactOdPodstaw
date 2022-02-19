@@ -14,7 +14,7 @@ let totalRating = 5;
 export function StarRating() {
     const [rating, setRating] = useState(3);
     return (
-        <div>
+        <div> 
             <p>świnka</p>
             {range(totalRating).map(key =>
                 <Star
